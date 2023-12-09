@@ -22,7 +22,7 @@ h1{
 }
 
 h3{
-    color: green;
+    color: #42c920;
 }
 
 a{
@@ -33,7 +33,7 @@ a{
 }
 
 a:hover{
-    color: green;
+    color: #42c920;
 }
 
 .logo{
@@ -108,7 +108,7 @@ nav{
 
 .home-text h2{
     font-size: 32px;
-    color: green;
+    color: #42c920;
 }
 
 .home-text p{
@@ -142,6 +142,10 @@ nav{
     gap: 50px;
 }
 
+.skill-list{
+    list-style: none;
+}
+
 .exp{
     padding: 204px;
     font-family: 'Open Sans', sans-serif;
@@ -164,7 +168,7 @@ nav{
 
 .proj h3{
     font-size: 30px;
-    color: green;
+    color: #42c920;
 }
 
 #img-proj{
