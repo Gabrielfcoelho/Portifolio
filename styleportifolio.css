@@ -21,6 +21,10 @@ h1{
     padding-bottom: 24px;
 }
 
+h3{
+    color: green;
+}
+
 a{
     color: #fff;
     max-width: 100%;
@@ -29,7 +33,7 @@ a{
 }
 
 a:hover{
-    opacity: 0.7;
+    color: green;
 }
 
 .logo{
@@ -104,6 +108,7 @@ nav{
 
 .home-text h2{
     font-size: 32px;
+    color: green;
 }
 
 .home-text p{
@@ -115,7 +120,6 @@ nav{
 }
 
 .sobre{
-    align-items: center;
     padding: 204px;
     font-family: 'Open Sans', sans-serif;
     font-size: x-large;
@@ -140,32 +144,42 @@ nav{
 
 .exp{
     padding: 204px;
-    align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-size: larger;
+}
+
+#trainee-exp{
+    padding-top: 32px;
 }
 
 .proj{
     padding: 204px;
     display: flex;
     gap: 50px;
-    font-size: medium;
     font-family: 'Open Sans', sans-serif;
+}
+.proj h1{
+    font-size: 50px;
+}
+
+.proj h3{
+    font-size: 30px;
+    color: green;
 }
 
 #img-proj{
-    border: 1px solid #fff;
+    border: 5px solid #fff;
     border-radius: 50px;
 }
 
 .contacts{
     padding: 50px;
-    align-items: center;
+    margin-left: 100px;
     font-family: 'Open Sans', sans-serif;
-    font-size: x-large;
+    font-size: large;
 }
 
 .img-icon{
     padding-right: 8px;
-    width: 50px;
+    width: 30px;
 }
