@@ -8,6 +8,7 @@
     scroll-behavior: smooth;
     color: #fff;
     background-color: #1B1f23;
+    list-style: none;
 }
 
 .sticky-top{
@@ -52,7 +53,6 @@ nav{
 
 .navbar{
     display: flex;
-    list-style: none;
 }
 
 .navbar li{
@@ -140,10 +140,6 @@ nav{
 .hardsoft{
     display: flex;
     gap: 50px;
-}
-
-.skill-list{
-    list-style: none;
 }
 
 .exp{
